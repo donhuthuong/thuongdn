@@ -1,0 +1,306 @@
+.dang-nhap {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+#index {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(43, 43, 43);
+}
+/*trang chu*/
+/*header*/
+.header {
+    background-color: rgb(56, 56, 56);
+}
+.logo {
+    float: left;
+    margin: 0px 0 0px 28px;
+}
+#search-container {
+    text-align: center;
+}
+#login {
+    float: right;
+}
+#login ul {
+    margin: 0;
+    padding: 0;
+}
+#login li, .pass li, .menu li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 1em;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: -4px;
+}
+#login li a {
+    padding: 6px;
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    text-align: center;
+}
+.menu a:hover {
+    background-color: rgb(151, 151, 151);
+    color: #fff;
+}
+#login a:hover {
+    color: rgb(255, 255, 255);
+}
+#login a:active {
+    background-color: rgb(56, 56, 56);
+    color: #fff;
+}
+.nav li {
+    position: relative;
+}
+.nav .sub-menu{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 150px;
+    background-color: rgb(56, 56, 56);
+    padding: 5px 20px;
+}
+ 
+.nav li:hover>.sub-menu{
+    display: block;
+}
+
+.nav>li>.sub-menu{
+    top: 40px;
+    left: 0;
+}
+/*content*/
+.content {
+    background-color: #fff;
+    margin: 0 150px;
+    height: 1350px;
+    position: relative;
+}
+h2, h4 {
+    margin: 10px;
+    background-color: rgb(255, 123, 0);
+    padding: 5px;
+    color: #fff;
+    width: auto;
+}
+/*box-aside*/
+.box-aside ul {
+    margin: 0;
+    padding: 0 5px 5px 5px;;
+}
+.box-aside li {
+    padding: 2px;
+    list-style-type: none;
+    border-bottom: 0.5px solid rgb(197, 197, 197);
+    margin: 9px 0;
+}
+.box-aside a {
+    padding: 3px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 25px;
+}
+.box-aside {
+    width: 34%;
+    height: 700px;
+    top: 330px;
+    right: 7px;
+    position: absolute;
+    background-color: rgb(182, 182, 182);
+}
+/*menu*/
+.menu {
+    background-color: #fff;
+}
+.menu ul {
+    margin: 0 0 4px 0;
+    padding: 5px;
+}
+.menu li a {
+    padding: 6px;
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+}
+/*footer*/
+.footer {
+    background-color: rgb(56, 56, 56);
+    padding: 20px 0 50px 20px;
+    margin-top: 4px;
+}
+h3 {
+    color: #fff;
+    margin: 10px 10px 0 10px;
+}
+.blogo {
+    float: left;
+    margin-right: 30px;
+    border: 1px solid rgb(189, 189, 189);
+    padding: 10px;
+}
+.footer span {
+    margin: 20px;
+    text-align: right;
+    color: rgb(148, 148, 148);
+}
+.bmenu li {
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    padding: 2px;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: -4px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.bmenu a {
+    padding: 3px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 15px;
+}
+/*box-group*/
+.box-gr {
+    position: absolute;
+    width: 63%;
+    height: 1000px;
+    top: 330px;
+    left: 7px;
+}
+.box {
+    float: left;
+    padding: 25px;
+}
+/*slide show*/
+.slider {
+    background: red;
+    color: white;
+    width: 1050px;
+    height: 320px;
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    
+  -webkit-scroll-snap-points-x: repeat(300px);
+  -ms-scroll-snap-points-x: repeat(300px);
+      scroll-snap-points-x: repeat(300px);
+-webkit-scroll-snap-type: mandatory;
+  -ms-scroll-snap-type: mandatory;
+      scroll-snap-type: mandatory;
+  -webkit-scroll-snap-points-x: repeat(300px);
+      -ms-scroll-snap-points-x: repeat(300px);
+          scroll-snap-points-x: repeat(300px);
+  -webkit-scroll-snap-type: mandatory;
+      -ms-scroll-snap-type: mandatory;
+          scroll-snap-type: mandatory;
+  }
+  .slide {
+    width: 250px;
+    padding: 0 6px;
+    flex-shrink: 0;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+  .slides > div:target {
+    transform: scale(0.8);
+  }
+/*login-dangnhap*/
+.cha {
+    text-align: left;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+.pass li a {
+    text-decoration: none;
+    margin-left: -50px;
+}
+.submit-dk {
+    text-align: center;
+}
+.submit-dk li {
+    width: 470px;
+    height: 50px;
+    line-height: 50px;
+    list-style-type: none;
+    background-color: rgb(255, 81, 0);
+    border-radius: 4px;
+}
+.submit-dk li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.dangnhap input {
+    width: 450px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 5px 10px 5px 10px;
+    margin-top: 5px;
+}
+.dangnhap input:focus {
+    border: 1px solid rgb(52, 208, 255);
+}
+input#submit {
+    width: 470px;
+    padding: 15px;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    bottom: 10px;
+    cursor: pointer;
+    background-color: rgb(99, 99, 99);
+}
+.submit-dk li:hover {
+    background-color: rgb(255, 197, 170);
+}
+.submit-dk a:active {
+    color: rgb(56, 56, 56);
+}
+input#submit:hover {
+    background-color: rgb(212, 211, 211);
+    color: rgb(85, 85, 85);
+}
+/*tạo thanh search bar*/ 
+#search-container input {
+    padding: 4px 8px 4px 8px;
+    margin: 8px 0 7px 600px;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+}
+#search-container button {
+    padding: 4px;
+    margin: 6px 16px 6px 0;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+#search-container button:hover {
+    background: #ccc;
+} 
+/*
+@media screen and (max-width: 600px) {
+    #search-container {
+      float: none;
+    }
+    .login a, #search-container input[type=text], #search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    #search-container input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+  */
